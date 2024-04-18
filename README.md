@@ -1,6 +1,30 @@
 # A Comparative Analysis of Conversational Large Language Models in Knowledge-Based Text Generation
 This GitHub repository contains the code and data resources related to the paper titled "A Comparative Analysis of Conversational Large Language Models in Knowledge-Based Text Generation", which has been accepted at the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024).
 
+## Citation Information
+
+For citing this study in academic papers, presentations, or theses, please use the following BibTeX entry:
+
+``` 
+@inproceedings{schneider-etal-2024-comparative,
+    title = "A Comparative Analysis of Conversational Large Language Models in Knowledge-Based Text Generation",
+    author = "Schneider, Phillip  and
+      Klettner, Manuel  and
+      Simperl, Elena  and
+      Matthes, Florian",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-short.31",
+    pages = "358--367",
+    abstract = "Generating natural language text from graph-structured data is essential for conversational information seeking. Semantic triples derived from knowledge graphs can serve as a valuable source for grounding responses from conversational agents by providing a factual basis for the information they communicate. This is especially relevant in the context of large language models, which offer great potential for conversational interaction but are prone to hallucinating, omitting, or producing conflicting information. In this study, we conduct an empirical analysis of conversational large language models in generating natural language text from semantic triples. We compare four large language models of varying sizes with different prompting techniques. Through a series of benchmark experiments on the WebNLG dataset, we analyze the models{'} performance and identify the most common issues in the generated predictions. Our findings show that the capabilities of large language models in triple verbalization can be significantly improved through few-shot prompting, post-processing, and efficient fine-tuning techniques, particularly for smaller models that exhibit lower zero-shot performance.",
+}
+``` 
+
 ## Structure of the Repository
 * **results**: Contains the predictions and evaluations for each model-prompt combination.
 * **results/human_evaluation**: Contains code to create a file with instances for human annotators to label. Furthermore, it contains code for analyzing the results.
